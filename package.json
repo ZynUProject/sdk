@@ -1,0 +1,23 @@
+{
+  "name": "@zynu/sdk",
+  "version": "0.1.0",
+  "description": "Official JavaScript/TypeScript SDK for the ZynU platform API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": ["zynu", "video", "sdk", "api"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "dependencies": {
+    "cross-fetch": "^4.0.0"
+  }
+}
