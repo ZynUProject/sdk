@@ -1,6 +1,6 @@
 # @zynu/sdk
 
-Official JavaScript/TypeScript SDK for the [ZynU](https://zynu.net) video platform API.
+Official JavaScript/TypeScript SDK for the ZynU video platform API.
 
 ![npm](https://img.shields.io/npm/v/@zynu/sdk)
 ![license](https://img.shields.io/badge/license-MIT-blue)
@@ -34,4 +34,4 @@ const creators = await zynu.users.search("gaming");
 
 ## License
 
-MIT © [ZynU](https://zynu.net)
+MIT © ZynU
